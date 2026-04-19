@@ -1,0 +1,16 @@
+node_modules/
+.env
+.DS_Store
+*.log
+
+# Rust / Soroban build artifacts
+smart-contract/target/
+*.wasm
+*.d
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
